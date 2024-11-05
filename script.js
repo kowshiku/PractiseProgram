@@ -11,7 +11,6 @@ async function fetchProducts() {
             <img src="${product.image}" alt="${product.title}">
             <div class="card-content">
                 <h3 class="card-title">${product.title}</h3>
-                <p class="card-description">${product.description}</p>
                 <p class="card-price">$${product.price}</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
